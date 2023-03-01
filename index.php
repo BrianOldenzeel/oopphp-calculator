@@ -17,7 +17,7 @@ include_once "includes/class-autoload.inc.php";
 
 <body>
     <form action="includes/calc.inc.php" method="post">
-        <P>rekenmachine</P>
+        <P>simpele rekenmachine</P>
         <input type="number" name="num1">
         <select name="oper" id="">
             <option value="add">plus</option>
