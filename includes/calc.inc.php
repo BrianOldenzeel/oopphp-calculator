@@ -9,8 +9,4 @@ $num2 = $_POST['num2'];
 
 $calc = new Calc($oper, (int) $num1, (int) $num2);
 
-try {
-    echo $calc->calculater();
-} catch (TypeError $e) {
-    echo "error" . $e->getMessage();
-}
+echo $calc->calculater();
